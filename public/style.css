@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Times New Roman", sans-serif;
+    margin: 0;
+  }
+
+  .welcome {
+    padding: 30px;
+    text-align: center;
+    background:#13293d;
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  .employees {
+    display: flex;
+    flex-direction: row;
+    /* Centers along the main axis determined by flex-direction */
+    justify-content: center;
+    /* Centers along the opposite axis */
+    align-items: center;
+    width: 90%;
+    /* Uses the height of the viewport */
+    height: 100vh;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 2px;
+  }
+  
+  .card {
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+    font-size: 24px;
+  }
+  
